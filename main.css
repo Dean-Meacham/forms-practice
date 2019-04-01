@@ -60,7 +60,8 @@ button {
     color: white;
     border: none;
     margin-top: 20px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    cursor: pointer;
 }
 form input , form select {
     width: 100%;

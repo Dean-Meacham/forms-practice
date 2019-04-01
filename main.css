@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: orangered;
+}
+header {
+    font-size: 1.125rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+}
+section {
+    width: 50%;
+}
+section .field {
+    padding: 20px 20px;
+    /* position: relative; */
+}
+.field input[type=text] {
+    font-size: 1rem;
+    padding-left: 25px;
+}
+select {
+    -webkit-appearance: none;
+    font-size: 1rem;
+    padding-left: 25px;
+    height: 24px;
+    width: 100%;
+}
+select option[type=text] {
+    font-size: 1rem;
+}
+.field {
+    position: relative;
+}
+.field i {
+    position: absolute;
+    left: -1;
+    top: -1;
+    padding: 4px 4px;
+    color: darkslategrey;
+    background-color: lightgray;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+button {
+    background-color: black;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    text-transform: uppercase; 
+}
+form input , form select {
+    width: 100%;
+}

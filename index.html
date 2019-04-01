@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>de_F O R M_ed</title>
+    <link rel="icon" href="images/clipboard.png" sizes="16x16" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>submit the form to request an appointment</header>
+    <form>
+        <section>
+            <div class="field">
+                <i class="fa fa-user icon"></i>
+                <input placeholder="first name" type="text" name="firstname">
+            </div>
+            <div class="field">
+                <i class="fas fa-at"></i>
+                <input placeholder="email" type="text" name="email">
+            </div>
+            <div class="field">
+                    <i class="fas fa-phone"></i>
+                    <input placeholder="phone" type="text" name="phone">
+            </div>
+        </section>
+        <section>
+            <div class="field">
+                <i class="fa fa-user icon"></i>
+                <input placeholder="last name" type="text" name="lastname">
+            </div>
+            <div class="field">
+                <i class="fas fa-birthday-cake"></i>
+                <input placeholder="birthday" type="text" name="birthday">
+            </div>
+            <div class="field">
+                <i class="fas fa-car-alt"></i>
+                <select>
+                    <option value="location" selected="true" disabled="disabled">select location</option>
+                    <option value="indy">indy, IN</option>
+                    <option value="shytown">shy town, IL</option>
+                    <option value="flint">flint, MI</option>
+                </select>
+            </div>
+        </section>
+        <div class="btn-wrapper">
+            <button type="button">submit request!</button>
+        </div>
+    </form>
+</body>
+</html>
